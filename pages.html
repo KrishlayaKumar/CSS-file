@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Video Example</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: black;
+            color: rgb(5, 248, 102);
+             /* Remove default margin and scroll bars */
+        }
+        P{
+            color: aqua;
+            font-size:x-large;
+        }
+        video {
+            position:absolute ;
+            top: 50%;
+            left: 50%;
+            width: 100% ;
+            height:100%;
+            transform: translateX(-50%) translateY(-50%);
+            z-index: -1; 
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="./back.mp4" type="video/mp4">
+    </video>
+        <h1>MY SOCIAL MEDIA LINKS :-</h1>
+        <p>
+        <ol>
+            <li><a href="https://www.instagram.com/yuan_sayuki/">MY INSTAGRAM LINK</a></li><br />
+            <li><a href="https://twitter.com/YuanSayuki520">MY TWITTER LINK</a></li><br />
+            <li><a href="https://www.reddit.com/r/NikuNikuNii/comments/undyw5/%E5%AA%9B%E5%AA%9B%E9%85%B1sayuki_yuan_sayuki/?rdt=33938">MY REDDIT LINK</a></li><br />
+            <li><a href="https://hypeauditor.com/instagram/yuan_sayuki/">MY HYPEAUDITOR LINK</a></li><br />
+        </ol>
+        </p>
+</body>
+</html>
